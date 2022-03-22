@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+  }
+a{
+    text-decoration: none;
+    color: rgb(43, 43, 43);
+}
+body{
+    font-family: 'Comfortaa', cursive;;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-family: 'Josefin Sans', sans-serif;
+}
+ul{
+    list-style: none;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(167, 167, 167);
+}
+    .cont{
+        display: flex;
+        justify-content:center;
+        max-width: 1300px;
+    }
+        .left-header{
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            justify-content: space-between;
+        }
+        .name{
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            text-align: right;
+            justify-content: end;
+            color: rgb(43, 43, 43);
+        }
+        .nav-list{
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            list-style: none;
+            background-color: rgb(167, 243, 230);
+            margin: 0px;
+            min-width: 700px;
+        }
+                .nav-link{
+                padding: 0 10px;
+                line-height: 50px;
+                }
+                .nav-link:hover{background-color: rgb(32, 32, 32); color: white;}
+        .photo{
+            padding: 10px;
+            min-width: 40%;
+        }
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(184, 184, 185);
+    color: rgb(43, 43, 43);
+}
+    .left{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        text-align: right;
+        min-width: 300px;
+    }
+        .project-links{background-color: rgb(167, 243, 230);}
+        .project-links:hover {background-color: rgb(32, 32, 32); color: white;}
+    .center{
+        width: 4%;
+        min-width: 10px;
+    }
+    .right{
+        width: 40%;
+        min-width: 300px;
+    }
+footer{
+    margin: 0; padding: 0;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(59, 59, 59);
+    margin: 0; padding: 0;
+}
+    .rss{
+        height: 25px;
+        padding: 4px;
+    }
